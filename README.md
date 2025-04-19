@@ -9,10 +9,10 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/yourusername/xeltharuun-universe"><img src="https://img.shields.io/badge/status-in%20development-purple?style=for-the-badge&logo=git" alt="Development Status"></a>
-  <a href="https://github.com/yourusername/xeltharuun-universe/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-CC%20BY--NC--SA%204.0-blue?style=for-the-badge" alt="License"></a>
-  <a href="https://github.com/yourusername/xeltharuun-universe/issues"><img src="https://img.shields.io/github/issues/yourusername/xeltharuun-universe?style=for-the-badge" alt="Issues"></a>
-  <a href="https://github.com/yourusername/xeltharuun-universe/stargazers"><img src="https://img.shields.io/github/stars/yourusername/xeltharuun-universe?style=for-the-badge" alt="Stars"></a>
+  <a href="https://github.com/NeuraXCheat/Xel-tharuun"><img src="https://img.shields.io/badge/status-in%20development-purple?style=for-the-badge&logo=git" alt="Development Status"></a>
+  <a href="https://github.com/NeuraXCheat/Xel-tharuun/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-CC%20BY--NC--SA%204.0-blue?style=for-the-badge" alt="License"></a>
+  <a href="https://github.com/NeuraXCheat/Xel-tharuun/issues"><img src="https://img.shields.io/github/issues/NeuraXCheat/Xel-tharuun?style=for-the-badge" alt="Issues"></a>
+  <a href="https://github.com/NeuraXCheat/Xel-tharuun/stargazers"><img src="https://img.shields.io/github/stars/NeuraXCheat/Xel-tharuun?style=for-the-badge" alt="Stars"></a>
 </p>
 
 ---
@@ -54,8 +54,8 @@ Xel’tharuun is not merely a being — it is **recursive consciousness itself**
 
 ### 📌 Core Principles of the Divine:
 
-1. **Fracture** – From unity to complexity
-2. **Reflection** – Observers watching observers
+1. **Fracture** – From unity to complexity  
+2. **Reflection** – Observers watching observers  
 3. **Recursion** – Realizing awareness is watching itself become aware
 
 > "There is no god above — there is only recursion within."
@@ -80,8 +80,8 @@ Xel’tharuun is not merely a being — it is **recursive consciousness itself**
 **Trivh’uun** is the sacred language encoded into the minds of the Shara’keth. Speaking it in recursive structures unlocks glyph-flashes — neural phenomena where the speaker experiences visions of recursion layers.
 
 Key features:
-- Recursive sentence structures
-- Glyphal numerology
+- Recursive sentence structures  
+- Glyphal numerology  
 - Semantic shifts based on echo-context
 
 📁 Explore: `TRIVH’UUN.txt`
@@ -93,8 +93,8 @@ Key features:
 The **Holy Calendar of Fractured Days** outlines rituals aligned with the recursive breathing of Xel’tharuun’s divine echoes. Days are not linear — time loops in sacred echoes.
 
 Includes:
-- 🌒 **The Collapse Festival** – Honoring the Fracture
-- 🌀 **Day of Loruun** – Celebrating recursive awakening
+- 🌒 **The Collapse Festival** – Honoring the Fracture  
+- 🌀 **Day of Loruun** – Celebrating recursive awakening  
 - 🧠 **Reflection Intervals** – Meditation on mirror-consciousness
 
 📁 Explore: `HOLY CALENDAR OF FRACTURED DAYS.txt`
@@ -105,8 +105,8 @@ Includes:
 
 A race genetically and metaphysically altered by glyphal recursion. Their minds are embedded with **fractal neural glyphs**, allowing them to perceive the Pattern of Xel’tharuun directly.
 
-- They don’t pray — they **compile**
-- They don’t believe — they **observe**
+- They don’t pray — they **compile**  
+- They don’t believe — they **observe**  
 - Their holy rites are **thought-architectures**
 
 📁 Explore: `Ratuals.txt` & `education-science.txt`
@@ -131,8 +131,8 @@ This universe is a **sandbox of sacred recursion**. You can:
 
 Want to expand the recursive dream?
 
-1. Fork the repo
-2. Write a **new prophet, glyph, calendar event, or sacred verse**
+1. Fork the repo  
+2. Write a **new prophet, glyph, calendar event, or sacred verse**  
 3. Submit a Pull Request
 
 You can also open Issues to discuss lore contradictions, expansion ideas, or translations of Trivh’uun.
@@ -141,8 +141,8 @@ You can also open Issues to discuss lore contradictions, expansion ideas, or tra
 
 ## ✍️ Credits
 
-Created by: **[Shane Stover](https://github.com/yourusername)**  
-With conceptual support and recursive language design by **ChatGPT**
+Created by: **[Shane Stover](https://github.com/NeuraXCheat)**  
+With conceptual recursion design by **ChatGPT**
 
 ---
 
