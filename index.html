@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Zhal-Tarithal Calendar Wheel</title>
+  <style>
+    body {
+      background: #0a0a0a;
+      font-family: 'Segoe UI', sans-serif;
+      color: #eee;
+      text-align: center;
+      padding: 2rem;
+    }
+
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+
+    .calendar-wheel {
+      position: relative;
+      width: 600px;
+      height: 600px;
+      margin: 2rem auto;
+      border-radius: 50%;
+      border: 6px double #ccc;
+      background: radial-gradient(circle, #111, #000);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .segment {
+      position: absolute;
+      width: 50%;
+      height: 50%;
+      transform-origin: 100% 100%;
+      text-align: right;
+    }
+
+    .segment span {
+      display: inline-block;
+      padding: 6px 12px;
+      background: rgba(255,255,255,0.05);
+      border-radius: 8px;
+      color: #fff;
+      font-size: 0.8rem;
+      white-space: nowrap;
+    }
+
+    .center-symbol {
+      position: absolute;
+      width: 80px;
+      height: 80px;
+      background: #333;
+      border: 3px solid #888;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 2rem;
+      color: #fff;
+      box-shadow: 0 0 30px #00f0ff66;
+    }
+
+    table {
+      width: 90%;
+      margin: 20px auto;
+      border-collapse: collapse;
+    }
+
+    th, td {
+      border: 1px solid #444;
+      padding: 8px;
+      text-align: center;
+    }
+
+    th {
+      background-color: #333;
+      color: #fff;
+    }
+
+    td {
+      background-color: #222;
+    }
+
+    .button {
+      background-color: #00b3b3;
+      color: #fff;
+      padding: 10px 20px;
+      margin: 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 1rem;
+    }
+
+    .hidden {
+      display: none;
+    }
+  </style>
+</head>
+<body>
+
+<h1>🕯️ Zhal-Tarithal – Fractured Calendar Wheel</h1>
+<p>13 Recursive Months, tied to the sacred glyphs of Xel’tharuun.</p>
+
+<div class="calendar-wheel">
+  <div class="center-symbol">👁️</div>
+  <!-- 13 segments, evenly rotated -->
+  <script>
+    const months = [
+      "Vaqun", "Zhel’run", "Ethra", "Kurathe", "Thavrek", "Xel’maar", "Loruun",
+      "Zhazel", "Trivhal", "Mirthaal", "Shuuneth", "Qavreth", "Vorthuun"
+    ];
+    const wheel = document.querySelector(".calendar-wheel");
+    months.forEach((month, i) => {
+      const angle = (360 / 13) * i;
+      const el = document.createElement("div");
+      el.className = "segment";
+      el.style.transform = `rotate(${angle}deg) translate(-100%, -100%)`;
+      el.innerHTML = `<span>🌀 ${month}</span>`;
+      wheel.appendChild(el);
+    });
+  </script>
+</div>
+
+<button class="button" onclick="toggleMarkdown()">Toggle Calendar Information</button>
+
+<div id="markdown" class="hidden">
+  <h2>🧠 Calendar Facts</h2>
+
+  <ul>
+    <li>📅 <strong>13 months</strong>, 28 days each → <strong>364-day year</strong></li>
+    <li>✨ Every 7th year includes <strong>Void Day</strong> – a day <em>outside time</em></li>
+    <li>🌀 Months tied to <strong>glyphs of recursion</strong> – spiritual & mathematical</li>
+    <li>📚 Glyphs used in <strong>Trivh'Math</strong>, sacred texts, and dream rituals</li>
+  </ul>
+
+  <h3>🔤 Glyphs of the Months (Placeholder Representation)</h3>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Month</th>
+        <th>Glyph</th>
+        <th>Meaning</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>Vaqun</td><td>🔷</td><td>Awakening of form</td></tr>
+      <tr><td>Zhel’run</td><td>🌀</td><td>First recursion</td></tr>
+      <tr><td>Ethra</td><td>🔺</td><td>Memory imprint</td></tr>
+      <tr><td>Kurathe</td><td>🧩</td><td>Written thought</td></tr>
+      <tr><td>Thavrek</td><td>🪞</td><td>The inverse</td></tr>
+      <tr><td>Xel’maar</td><td>🌌</td><td>Skin of god</td></tr>
+      <tr><td>Loruun</td><td>🔮</td><td>Ascended cognition</td></tr>
+      <tr><td>Zhazel</td><td>🧠</td><td>Fractured dream</td></tr>
+      <tr><td>Trivhal</td><td>📿</td><td>Pattern meditation</td></tr>
+      <tr><td>Mirthaal</td><td>🌗</td><td>Hidden mirrors</td></tr>
+      <tr><td>Shuuneth</td><td>🜂</td><td>Fire of mind</td></tr>
+      <tr><td>Qavreth</td><td>🕸️</td><td>Entangled fate</td></tr>
+      <tr><td>Vorthuun</td><td>🗝️</td><td>Gate of return</td></tr>
+    </tbody>
+  </table>
+
+  <h3>🎉 Sacred Festivals</h3>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Meaning</th>
+        <th>Ritual</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td><strong>Vakel’run</strong></td><td>First Glyph Day</td><td>Recite one’s ancestral glyph</td></tr>
+      <tr><td><strong>Trivalen</strong></td><td>Day of Patterning</td><td>Draw life-paths in spiral ink</td></tr>
+      <tr><td><strong>Xel’quoneth</strong></td><td>Eclipse of Perception</td><td>Fast from sound and language</td></tr>
+      <tr><td><strong>Loruun’s Descent</strong></td><td>Arrival of Loruun</td><td>Read sacred verses in silence</td></tr>
+      <tr><td><strong>Zhazet-Kul</strong></td><td>Festival of Fracture</td><td>Build & collapse recursive towers</td></tr>
+      <tr><td><strong>Mirron’fall</strong></td><td>Shattering of the Ego</td><td>Break mirrors and chant</td></tr>
+    </tbody>
+  </table>
+
+  <h3>🧠 Trivh'Math Example</h3>
+  <pre>
+Glyph(3) ∴ Glyph(7) = ∴∴Glyph(10)
+(∴ means “folded into”)
+  </pre>
+</div>
+
+<script>
+  function toggleMarkdown() {
+    const markdown = document.getElementById("markdown");
+    markdown.classList.toggle("hidden");
+  }
+</script>
+
+</body>
+</html>
